@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    padding: 2rem;
+}
+
+header {
+    margin: 2rem;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #FFCCCC;
+}
+
+.span {
+    float: left;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    background-color: rgb(243, 152, 223);
+    font-weight: bold;
+}
+
+
+.button {
+    float: right;
+    width: 20%;
+
+}
+
+.donutContainer {
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 26;
+    font-weight: bold;
+}
+
+.clicker img {
+    position: relative;
+    transition: all .2s ease-in-out;
+}
+
+.clicker img:hover{ transform: scale(1.1);
+}
+
+.clicker img:active {transform: scale(.99);
+}
+
+.shopButton {
+    background-color: grey;
+    transition: all .2s ease-in-out;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    color: tan;
+}
+
+.shopButton:hover {
+    background-color: rgb(24, 24, 26);
+    transition: all .2s ease-in-out;
+}
+
+.shopButton #image {
+    width: 25%;
+}
+
+.shopButton img {
+    height: 64px;
+    width: 64px;
+}
+
+.shopButton #nameAndCost p {
+    margin: 0px;
+    width: 60%;
+}
+
+.shopButton #nameAndCost p:first-of-tyoe {
+    font-size: 24px;
+}
+
+.shopButton #amount {
+    font-size: 48px;
+    color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+    width: 15%;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donuts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Company Information</li>
+                <li>Inspiration</li>
+                <li>Developer Information</li>
+            </ul>
+        </nav>
+    </header>
+<h1>Welcome to Fred the Baker Baking Company!</h1>
+
+    <div class="span">
+
+        <div donutContainer>
+            <span id="donutspersecond">0</span> Donuts per second <br>
+            <span id="donuts">0</span> Donuts
+        </div>
+        <br>
+        <div class="clicker">
+        <img src="kenny-kennethh-EsiccUbbzeY-unsplash.jpg" height="100" width="100" onclick="addToScore(clickingPower)">
+        </div>
+
+    </div>
+
+    <div class="button">
+        <table class="shopButton" onclick="buyCursor()">
+            <tr>
+                <td id="image"><img src="umberto-deb2EnbWPr8-unsplash.jpg" width="100"></td>
+                <td id="nameAndCost">
+                    <p>Cursor</p>
+                    <p><span id="cursorcost">100</span> Donuts</p>
+                </td>
+                <td id="amount"><span id="cursors">0</span></td>
+            </tr>
+        </table>
+        <table class="shopButton" onclick="buyGranny()">
+            <tr>
+                <td id="image"><img src="todd-cravens-ZPynRLKjp9I-unsplash.jpg" width="100"></td>
+                <td id="nameAndCost">
+                    <p>Granny</p>
+                    <p><span id="grannycost">300</span> Donuts</p>
+                </td>
+                <td id="amount"><span id="granny">0</span></td>
+            </tr>
+        </table>
+        <table class="shopButton" onclick="buyShop()">
+            <tr>
+                <td id="image"><img src="simon-ray-fdjjkFDeffQ-unsplash.jpg" width="100"></td>
+                <td id="nameAndCost">
+                    <p>Shop</p>
+                    <p><span id="shopcost">1,000</span> Donuts</p>
+                </td>
+                <td id="amount"><span id="granny">0</span></td>
+            </tr>
+        </table>
+        <table class="shopButton" onclick="buyWarehouse()">
+            <tr>
+                <td id="image"><img src="wrs-tm-pl-TCkIri6lxEo-unsplash.jpg" width="100"></td>
+                <td id="nameAndCost">
+                    <p>Warehouse</p>
+                    <p><span id="warehousecost">12,000</span> Donuts</p>
+                </td>
+                <td id="amount"><span id="warehouse">0</span></td>
+            </tr>
+        </table>
+        <table class="shopButton" onclick="buyFactory()">
+            <tr>
+                <td id="image"><img src="pierre-chatel-innocenti-LGblf4EH4yk-unsplash.jpg" width="100"></td>
+                <td id="nameAndCost">
+                    <p>Factory</p>
+                    <p><span id="factorycost">123,000</span> Donuts</p>
+                </td>
+                <td id="amount"><span id="factory">0</span></td>
+            </tr>
+        </table>
+        <!-- <button onclick="buyCursor()">Cursor [<span id="cursorcost">100</span>] -- <span id="cursors">0</span></button> -->
+        <!-- <button onclick="buyGranny()">Granny [<span id="grannycost">300</span>] -- <span id="granny">0</span></button> -->
+        <!-- <button onclick="buyShop()">Shop [<span id="shopcost">1,000</span>] -- <span id="shop">0</span></button> -->
+        <!-- <button onclick="buyWarehouse()">Warehouse [<span id="warehousecost">12,000</span>] -- <span id="warehouse">0</span></button> -->
+        <!-- <button onclick="buyFactory()">Factory [<span id="factorycost">123,000</span>] -- <span id="factory">0</span></button> -->
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+
+</html>
